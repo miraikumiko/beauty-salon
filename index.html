@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <title>Salón de belleza</title>
+</head>
+<body>
+    <!--
+    <header>
+        <a href="/">
+            <img id="logo" src="https://img1.wsimg.com/isteam/ip/d832f19f-16ee-4bb0-8e7d-ef70d0fb57a0/logo/df7257eb-0e80-4c67-9481-83cd15a70136.jpg/:/rs=h:58,cg:true,m/qt=q:95" alt="logo">
+        </a>
+        <div id="nav">
+            <a href="privacypolicy.html">Privacy Policy</a>
+        </div>
+    </header> -->
+    <main>
+        <div id="hero">
+            <div>
+                <h1 id="welcome-title"></h1>
+                <p>Tu sonrisa - nuestra prioridad 😊❤️</p>
+            </div>
+        </div>
+        <div id="social">
+            <h1 class="title">Conéctate con Nosotros</h1>
+            <hr>
+            <div id="social-links">
+                <a href="mailto:example@gmail.com" target="_blank">
+                    <img src="img/email.svg" alt="email" style="height: 70px; width: 70px;">
+                </a>
+                <a href="https://wa.me/1234567890" target="_blank">
+                    <img src="img/whatsapp.svg" alt="whatsapp" style="height: 70px; width: 70px;">
+                </a>
+                <a href="https://facebook.com/@aaaaa" target="_blank">
+                    <img src="img/facebook.svg" alt="facebook" style="height: 70px; width: 70px;">
+                </a>
+                <a href="https://instagram.com/@aaaaa" target="_blank">
+                    <img src="img/instagram.svg" alt="instagram" style="height: 70px; width: 70px;">
+                </a>
+            </div>
+        </div>
+        <div id="services">
+            <h1 class="title">Nuestros Servicios</h1>
+            <hr>
+            <div id="service-list">
+                <div class="service">
+                    <h4>MICROBLADING</h4>
+                    <img src="https://isteam.wsimg.com/ip/d832f19f-16ee-4bb0-8e7d-ef70d0fb57a0/9BB9BFB7-2F0B-42E4-B6A9-FCE7A0FD08EF.png/:/cr=t:21.68%25,l:33.72%25,w:48.02%25,h:42.02%25/rs=w:600,h:300,cg:true,m" alt="1">
+                    <p>Nuestro personal experto y certificado, realizará el diseño de cejas perfecto para tu rostro, con las técnicas más vanguardistas en Microblading.</p>
+                </div>
+                <div class="service">
+                    <h4>MICROBLADING</h4>
+                    <img src="https://isteam.wsimg.com/ip/d832f19f-16ee-4bb0-8e7d-ef70d0fb57a0/9BB9BFB7-2F0B-42E4-B6A9-FCE7A0FD08EF.png/:/cr=t:21.68%25,l:33.72%25,w:48.02%25,h:42.02%25/rs=w:600,h:300,cg:true,m" alt="2">
+                    <p>Nuestro personal experto y certificado, realizará el diseño de cejas perfecto para tu rostro, con las técnicas más vanguardistas en Microblading.</p>
+                </div>
+                <div class="service">
+                    <h4>MICROBLADING</h4>
+                    <img src="https://isteam.wsimg.com/ip/d832f19f-16ee-4bb0-8e7d-ef70d0fb57a0/9BB9BFB7-2F0B-42E4-B6A9-FCE7A0FD08EF.png/:/cr=t:21.68%25,l:33.72%25,w:48.02%25,h:42.02%25/rs=w:600,h:300,cg:true,m" alt="3">
+                    <p>Nuestro personal experto y certificado, realizará el diseño de cejas perfecto para tu rostro, con las técnicas más vanguardistas en Microblading.</p>
+                </div>
+                <div class="service">
+                    <h4>MICROBLADING</h4>
+                    <img src="https://isteam.wsimg.com/ip/d832f19f-16ee-4bb0-8e7d-ef70d0fb57a0/9BB9BFB7-2F0B-42E4-B6A9-FCE7A0FD08EF.png/:/cr=t:21.68%25,l:33.72%25,w:48.02%25,h:42.02%25/rs=w:600,h:300,cg:true,m" alt="4">
+                    <p>Nuestro personal experto y certificado, realizará el diseño de cejas perfecto para tu rostro, con las técnicas más vanguardistas en Microblading.</p>
+                </div>
+            </div>
+        </div>
+        <div id="schedule">
+            <h1 class="title">Horario</h1>
+            <hr>
+            <p>Lun 09:00 - 19:00</p>
+            <p>Mar 09:00 - 19:00</p>
+            <p>Mié 09:00 - 19:00</p>
+            <p>Jue 09:00 - 19:00</p>
+            <p>Vie 09:00 - 19:00</p>
+            <p>Sáb 09:00 - 19:00</p>
+            <p>Dom 09:00 - 19:00</p>
+        </div>
+        <div id="prices">
+            <h1 class="title">Lista de precios</h1>
+            <hr>
+            <div id="prices-list">
+                <h3>MICROPIGMENTACIÓN</h3>
+                <div class="service-price">
+                    <div>
+                        <h4>SERVICIO DE CEJAS ARTISTAS ALLEGRA</h4>
+                        <span>€1000</span>
+                    </div>
+                    <p>Incluye Microblading y pomada post tratamiento. El retoque tiene un costo de €1,000 y se realiza a los 30 a 45 días del servicio de primera vez. Todas nuestras Artistas Pro están certificadas y avaladas por Cofepris y tienen un tiempo de experiencia de entre 3 y 5 años.</p>
+                    <div>
+                        <h4>SERVICIO DE CEJAS LETICIA MOCTEZUMA</h4>
+                        <span>€5500</span>
+                    </div>
+                    <p>Incluye Microblading y pomada post tratamiento. No incluye retoque. El retoque tiene un costo de $1,500 y se realiza a los 30 a 45 días del servicio de primera vez.</p>
+                    <p>Leticia Moctezuma tiene más de 18 años de experiencia en el medio y numerosas certificaciones internacionales. Es quien capacita y supervisa a nuestras Artistas Allegra.</p>
+                </div>
+            </div>
+        </div>
+        <div id="map"></div>
+    </main>
+    <footer>
+        <a href="privacypolicy.html">Privacy Policy</a>
+        ·
+        <a href="terms.html">Terms of Service</a>
+        <p>123 Smile Street, Madrid&nbsp;&nbsp;&nbsp;&nbsp;Tel. +349999999</p>
+        <p>Copyright © 2025  Your Salon - Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // Draw welcome text
+        document.addEventListener("DOMContentLoaded", () => {
+            const text = "Bienvenido a nuestro salón de belleza!";
+            const element = document.getElementById("welcome-title");
+            let index = 0;
+    
+            function typeEffect() {
+                if (index < text.length) {
+                    element.textContent += text[index];
+                    index++;
+                    setTimeout(typeEffect, 50);
+                }
+            }
+    
+            typeEffect();
+        });
+
+        // Draw map
+        const map = L.map("map", {
+            center: [40.416775, -3.703790],
+            zoom: 13,
+            scrollWheelZoom: false
+        });
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
+
+        const marker = L.marker([40.416775, -3.703790]).addTo(map);
+        marker.bindPopup("<b>Salón de belleza</b><br>123 Smile Street, Madrid").openPopup();
+    </script>
+</body>
+</html>
