@@ -54,7 +54,7 @@ hr {
 
 #hero {
     color: white;
-    background-image: url("img/background.jpg");
+    background-image: url("img/background.webp");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -107,17 +107,19 @@ hr {
 
 #prices-list h2 {
     font-size: 32px;
+    padding-top: 40px;
 }
 
 #prices-list h3, span {
+    color: #555;
     font-size: 22px;
 }
 
-#service-price {
+#prices-list p {
     color: #555;
 }
 
-#service-price div {
+#prices-list div {
     display: flex;
     justify-content: space-between;
     align-items: center;
