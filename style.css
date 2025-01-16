@@ -7,19 +7,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-header {
-    background-color: rgba(0, 0, 0, 0.7);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    margin: 0;
-    padding: 0.5rem 1rem; 
-    justify-content: space-between;
-    z-index: 10;
-}
-
 footer {
     color: white;
     background-color: black;
