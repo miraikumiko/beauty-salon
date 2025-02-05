@@ -92,6 +92,10 @@ hr {
     padding: 0 0 40px 0;
 }
 
+#prices-list {
+    margin: 0 10%;
+}
+
 #prices-list h2 {
     font-size: 32px;
     padding-top: 40px;
@@ -160,10 +164,6 @@ hr {
         align-items: center;
     }
 
-    #prices-list {
-        margin: 0 10%;
-    }
-
     .service {
         display: flex;
         flex-direction: column;
@@ -185,10 +185,6 @@ hr {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    #prices-list {
-        margin: 0 10%;
     }
 
     .service {
