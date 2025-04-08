@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Salón de belleza" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <title>Salón de belleza</title>
+</head>
+
+<body>
+    <main>
+        <div id="hero">
+            <div>
+                <h1 id="welcome-title"></h1>
+                <p>Tu alegría es lo más importante para nosotros 😊❤️</p>
+            </div>
+        </div>
+        <div id="social">
+            <h1 class="title">Conéctate con Nosotros</h1>
+            <hr>
+            <div id="social-links">
+                <a href="mailto:example@gmail.com" target="_blank">
+                    <img src="img/email.svg" alt="E-mail" style="height: 70px; width: 70px;">
+                </a>
+                <a href="https://wa.me/1234567890" target="_blank">
+                    <img src="img/whatsapp.svg" alt="WhatsApp" style="height: 70px; width: 70px;">
+                </a>
+                <a href="https://facebook.com/@aaaaa" target="_blank">
+                    <img src="img/facebook.svg" alt="Facebook" style="height: 70px; width: 70px;">
+                </a>
+                <a href="https://instagram.com/@aaaaa" target="_blank">
+                    <img src="img/instagram.svg" alt="Instagram" style="height: 70px; width: 70px;">
+                </a>
+            </div>
+        </div>
+        <div id="services">
+            <h1 class="title">Nuestros Servicios</h1>
+            <hr>
+            <div id="service-list">
+                <div class="service">
+                    <h2>MICROBLADING</h2>
+                    <img src="img/microblading.webp" alt="Microblading">
+                    <p>Nuestro personal experto y certificado, realizará el diseño de cejas perfecto para tu rostro, con
+                        las técnicas más vanguardistas en Microblading.</p>
+                </div>
+                <div class="service">
+                    <h2>EXTENSIONES DE PESTAÑAS</h2>
+                    <img src="img/expensiones-de-pestanas.webp" alt="Extensiones de pestañas">
+                    <p>Nuestro personal experto y certificado, realizará el diseño de cejas perfecto para tu rostro, con
+                        las técnicas más vanguardistas en Microblading.</p>
+                </div>
+                <div class="service">
+                    <h2>OJOS Y LABIOS</h2>
+                    <img src="img/ojos-y-labios.webp" alt="Ojos y labios">
+                    <p>Nuestro personal experto y certificado, realizará el diseño de cejas perfecto para tu rostro, con
+                        las técnicas más vanguardistas en Microblading.</p>
+                </div>
+                <div class="service">
+                    <h2>MANOS Y PIES</h2>
+                    <img src="img/manos-y-pies.webp" alt="Manos y pies">
+                    <p>Nuestro personal experto y certificado, realizará el diseño de cejas perfecto para tu rostro, con
+                        las técnicas más vanguardistas en Microblading.</p>
+                </div>
+            </div>
+        </div>
+        <div id="schedule">
+            <h1 class="title">Horario</h1>
+            <hr>
+            <p>Lun 09:00 - 19:00</p>
+            <p>Mar 09:00 - 19:00</p>
+            <p>Mié 09:00 - 19:00</p>
+            <p>Jue 09:00 - 19:00</p>
+            <p>Vie 09:00 - 19:00</p>
+            <p>Sáb 09:00 - 19:00</p>
+            <p>Dom 09:00 - 19:00</p>
+        </div>
+        <div id="prices">
+            <h1 class="title">Lista de precios</h1>
+            <hr>
+            <div id="prices-list">
+                <h2>MICROPIGMENTACIÓN</h2>
+                <div>
+                    <h3>SERVICIO DE CEJAS ARTISTAS ALLEGRA</h3>
+                    <span>€1000</span>
+                </div>
+                <p>Incluye Microblading y pomada post tratamiento. El retoque tiene un costo de €1,000 y se realiza a
+                    los 30 a 45 días del servicio de primera vez. Todas nuestras Artistas Pro están certificadas y
+                    avaladas por Cofepris y tienen un tiempo de experiencia de entre 3 y 5 años.</p>
+                <div>
+                    <h3>SERVICIO DE CEJAS LETICIA MOCTEZUMA</h3>
+                    <span>€5500</span>
+                </div>
+                <p>Incluye Microblading y pomada post tratamiento. No incluye retoque. El retoque tiene un costo de
+                    $1,500 y se realiza a los 30 a 45 días del servicio de primera vez.</p>
+                <p>Leticia Moctezuma tiene más de 18 años de experiencia en el medio y numerosas certificaciones
+                    internacionales. Es quien capacita y supervisa a nuestras Artistas Allegra.</p>
+                <div>
+                    <h3>CEJAS EFECTO POLVO</h3>
+                    <span>€5500</span>
+                </div>
+                <p>Efecto tipo maquillaje que se logra a base de finísimos píxeles. Incluye pomada post tratamiento. No
+                    incluye retoque. El retoque tiene un costo de $1,500 y se realiza a los 30 a 45 días del servicio de
+                    primera vez.</p>
+                <div>
+                    <h3>DELINEADO DE OJOS</h3>
+                    <span>€5500</span>
+                </div>
+                <p>Contamos con tres tipos de delineado: Cat Eye, Baby Liner y Clásico. Incluye pomada post tratamiento.
+                    No incluye retoque. El retoque tiene un costo de $1,500 y se realiza a los 30 a 45 días del servicio
+                    de primera vez.</p>
+                <div>
+                    <h3>PUNTEADO DE PESTAÑAS</h3>
+                    <span>€2500</span>
+                </div>
+                <p>Es un delineado muy sutil, que hará tus ojos luzcan más expresivos sin verse maquillados; también
+                    hace que tus pestañas se vean más negras, largas y tupidas. Incluye pomada post tratamiento. En la
+                    mayoría de los casos no es necesario el retoque pero en caso de necesitarlo tendrá un costo de $1000
+                    y se realizará a los 30 a 45 días del servicio de primera vez.</p>
+                <div>
+                    <h3>BABY LIPS</h3>
+                    <span>€5500</span>
+                </div>
+                <p>Dale color, definición y forma perfecta a tus labios. Puedes escoger el tono que desees. Incluye
+                    pomada post tratamiento. No incluye retoque. El retoque tiene un costo de $1,500 y se realiza a los
+                    30 a 45 días del servicio de primera vez.</p>
+                <h2>MANOS Y PIES</h2>
+                <div>
+                    <h3>Manicure sencillo</h3>
+                    <span>€130</span>
+                </div>
+                <div>
+                    <h3>Pedicure sencillo</h3>
+                    <span>€210</span>
+                </div>
+                <div>
+                    <h3>Aplicación de Gelish</h3>
+                    <span>€190</span>
+                </div>
+                <p>Puedes escoger entre más de 60 tonos (no incluye diseño)</p>
+                <div>
+                    <h3>Uñas de acrílico</h3>
+                    <span>€280</span>
+                </div>
+                <p>Uñas de tip o esculturales que resaltarán la belleza de tus manos</p>
+                <h2>EXTENSIONES DE PESTAÑAS</h2>
+                <div>
+                    <h3>Técnica Clásica</h3>
+                    <span>€890</span>
+                </div>
+                <p>Un efecto súper natural para que tus pestañas luzcan más largas y tupidas.</p>
+                <p>El costo del retoque es de $380 y debe realizarse a los 15 días del servicio de primera vez o
+                    subsecuentes.</p>
+                <div>
+                    <h3>Híbridas</h3>
+                    <span>€990</span>
+                </div>
+                <p>Lleva tu mirada a otro nivel, con pestañas súper tupidas y efectos más llamativos.</p>
+                <p>El retoque tiene un costo de $480 y se realiza los 15 días del servicio inicial o subsecuentes.</p>
+                <div>
+                    <h3>Volumen Ruso</h3>
+                    <span>€1190</span>
+                </div>
+                <p>Nuestro efecto más dramático para una mirada de impacto. El retoque tiene un costo de $690 y
+                    serealiza a los 20 días del servicio de primera vez o subsecuentes.</p>
+            </div>
+        </div>
+        <div id="map"></div>
+    </main>
+    <footer>
+        <a href="privacypolicy.html">Privacy Policy</a>
+        ·
+        <a href="terms.html">Terms of Service</a>
+        <p>123 Smile Street, Madrid&nbsp;&nbsp;&nbsp;&nbsp;Tel. +349999999</p>
+        <p>Copyright © 2025 Your Salon - Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // Draw welcome text
+        document.addEventListener("DOMContentLoaded", () => {
+            const text = "¡Te damos la bienvenida a nuestro salón de belleza!";
+            const element = document.getElementById("welcome-title");
+            let index = 0;
+
+            function typeEffect() {
+                if (index < text.length) {
+                    element.textContent += text[index];
+                    index++;
+                    setTimeout(typeEffect, 50);
+                }
+            }
+
+            typeEffect();
+        });
+
+        // Draw map
+        const map = L.map("map", {
+            center: [40.416775, -3.703790],
+            zoom: 13,
+            scrollWheelZoom: false
+        });
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
+
+        const marker = L.marker([40.416775, -3.703790]).addTo(map);
+        marker.bindPopup("<b>Salón de belleza</b><br>123 Smile Street, Madrid").openPopup();
+    </script>
+</body>
+
+</html>

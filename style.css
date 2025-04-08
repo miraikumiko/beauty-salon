@@ -1,0 +1,238 @@
+html {
+    scrollbar-width: none;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    font-size: small;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    background-color: #bbb;
+    height: 1px;
+    width: 3%;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+#hero {
+    color: white;
+    background-image: url("img/background.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+#social-links {
+    display: flex;
+    justify-content: center;
+}
+
+#social-links a {
+    padding: 0 10px;
+}
+
+#services {
+    background-color: rgb(245, 245, 245);
+    padding: 0 0 40px 0;
+}
+
+#schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#schedule p {
+    font-size: 30px;
+    margin: 10px;
+}
+
+#prices {
+    padding: 0 0 40px 0;
+}
+
+#prices-list {
+    margin: 0 10%;
+}
+
+#prices-list h2 {
+    font-size: 32px;
+    padding-top: 40px;
+}
+
+#prices-list h3, span {
+    color: #555;
+    font-size: 22px;
+}
+
+#prices-list p {
+    color: #555;
+}
+
+#prices-list div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    color: #555;
+    font-size: 44px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+@media (max-width: 480px) {
+    #logo {
+        width: 0;
+    }
+
+    #service-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #service-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+    }
+
+    .service img {
+        width: 50%;
+    }
+
+    .service p {
+        width: 50%;
+    }
+}
+
+@media (max-width: 920px) {
+    #service-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+    }
+
+    .service img {
+        width: 80%;
+    }
+
+    .service p {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #service-list {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 0 120px;
+        justify-items: center;
+    }
+
+    #prices-list {
+        margin: 0 20%;
+    }
+
+    #prices-list h3 {
+        font-size: 28px;
+    }
+
+    .service {
+        width: 90%;
+    }
+
+    .service h2 {
+        font-size: 22px;
+    }
+
+    .service img {
+        width: 100%;
+    }
+
+    .service p {
+        color: #555;
+        font-size: 14px;
+    }
+}
